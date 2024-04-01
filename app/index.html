@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de média</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme ">
+    <div id="container">
+        <header>
+                <h1>Calculo de média</h1>
+                <div id="btn-nightmode"></div>
+        </header>
+            <div id="main">
+                    <h2>Insira o nome do aluno</h2>
+                    <div id="inputs">
+                        <span>Nome:</span>
+                        <input type="text" id="nome" required>
+                    </div>
+                    <br>
+                    <h2>Insira a primeira nota do aluno</h2>
+                    <div id="inputs">
+                        <span>Nota 1:</span>
+                        <input type="text"  id="nota1" required>
+                    </div>
+                    <br>
+                    <h2>Insira a segunda nota do aluno</h2>
+                    <div id="inputs">
+                        <span>Nota 2:</span>
+                        <input type="text" id="nota2" required>
+                    </div>
+                    <br><br>
+                    <input type="submit" value="Enviar" id="btn-submit">
+                    <br><br>
+                <div id="table">
+                    <table border="1" id="tabela">
+                        <tr>
+                            <th>Nome</th>
+                            <th>Primeira Nota</th>
+                            <th>Segunda Nota</th>
+                            <th>Media</th>
+                            <th>Resultado</th>
+                        </tr>
+                </div>
+            </div>
+            </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
